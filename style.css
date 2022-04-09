@@ -1,0 +1,50 @@
+:root {
+	/* CSS HEX */
+	--steel-teal: #799496ff;
+	--honey-yellow: #ffb400ff;
+	--languid-lavender: #e5d0e3ff;
+	--pink-lavender: #e0b0d5ff;
+	--oxford-blue: #0d2c54ff;
+
+	/* CSS HSL */
+	--steel-teal: hsla(184, 12%, 53%, 1);
+	--honey-yellow: hsla(42, 100%, 50%, 1);
+	--languid-lavender: hsla(306, 29%, 86%, 1);
+	--pink-lavender: hsla(314, 44%, 78%, 1);
+	--oxford-blue: hsla(214, 73%, 19%, 1);
+
+	/* SCSS HEX */
+	$steel-teal: #799496ff;
+	$honey-yellow: #ffb400ff;
+	$languid-lavender: #e5d0e3ff;
+	$pink-lavender: #e0b0d5ff;
+	$oxford-blue: #0d2c54ff;
+
+	/* SCSS HSL */
+	$steel-teal: hsla(184, 12%, 53%, 1);
+	$honey-yellow: hsla(42, 100%, 50%, 1);
+	$languid-lavender: hsla(306, 29%, 86%, 1);
+	$pink-lavender: hsla(314, 44%, 78%, 1);
+	$oxford-blue: hsla(214, 73%, 19%, 1);
+
+	/* SCSS RGB */
+	$steel-teal: rgba(121, 148, 150, 1);
+	$honey-yellow: rgba(255, 180, 0, 1);
+	$languid-lavender: rgba(229, 208, 227, 1);
+	$pink-lavender: rgba(224, 176, 213, 1);
+	$oxford-blue: rgba(13, 44, 84, 1);
+}
+
+h1 {
+	font-family: 'DM Serif Display', serif;
+	color: var(--honey-yellow);
+}
+
+p {
+	font-family: "Signika Negative", sans-serif;
+	font-weight: 300;
+}
+
+.wrapper {
+	margin: 20px;
+}
